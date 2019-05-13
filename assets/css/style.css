@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    width: 900px;
+    background: url("../images/green_dust_scratch_@2X.png");
+}
+
+header{
+    font-size: 35px;
+    background-color: rgb(171,104,24);
+    padding: 20px;
+    color: antiquewhite;
+    width:35%;
+}
+
+#title {
+
+}
+.instructions {
+    width: 60%;
+    background: url("../images/purty_wood.png");
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 20px;
+    color: rgba(3, 114, 114, 0.911);
+    line-height: 1.15;
+}
+
+.container {
+    width: 50%;
+    height: 200px;
+}
+#scoreboard{
+
+}
+#wins {
+
+}
+#losses {
+
+}
+
+.crystals {
+    
+}
+#crystal-1,
+#crystal-2,
+#crystal-3,
+#crystal-4,
+#crystal-5 {
+    width: 75px;
+    height: 75px;
+}
+
+.running-score {
+
+}
