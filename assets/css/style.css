@@ -33,6 +33,7 @@ header{
 
 .container {
     position: absolute;
+    float: left;
 }
 .random-number {
     width: 300px;
@@ -43,12 +44,14 @@ header{
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 5px;
+    float: left;
 }
 #scoreboard{
     height: 90px;
     width: 100px;
     background-color: rgb(17, 219, 209);
     padding: 5px;
+    float: left;
 }
 #wins {
 
