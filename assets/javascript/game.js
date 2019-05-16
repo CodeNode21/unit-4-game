@@ -1,16 +1,22 @@
-$(document).ready(){
+$(document).ready(function(){
 // defining global variables below
-crystals = [
-"crystal-1",
-"crystal-2",
-"crystal-3",
-"crystal-4",
-"crystal-5",
-]
+
+var crystal1 = 0;
+var crystal2 = 0;
+var crystal3 = 0;
+var crystal4 = 0;
+var crystal5 = 0;
+
 var score = 0;
 var wins = 0;
 var losses = 0;
 
+    $("#crystal-1").html(cNumGenerator());
+    $("#crystal-2").html(cNumGenerator());
+    $("#crystal-3").html(cNumGenerator());
+    $("#crystal-4").html(cNumGenerator());
+    $(".random-number").html(randNum);
+    $("#crystal-1").click(cNumGenerator());
 // function to generate random number. The random number shown at the start should be between 19-120.
 // each crystal should have a random hidden value between 1-12.
 	function randomNum() {
@@ -18,17 +24,17 @@ var losses = 0;
 		return randNum;
 	}
 		console.log(randNum);
-		// following assigns random value to field
-		$("#random-number").val(randNum());
+		// following assigns random value to html
+		$(".random-number").val(randNum());
 		
 // function to generate random numbers and assign to crystals
 	function cNumGenerator() {
 		var crystVal = Math.floor(Math.random() * 12) + 1;
 		for (var i=0; i < crystals.length; i++); {
-				$(crystals[i]).val(crystVal)
+				$(crystals[i]).val(crystVal);
 		}
 	}
-		console.log.val.crystals[0]);
+		console.log.val.crystals[0];
 		console.log(crystal-2);
 		console.log(crystal-3);
 		console.log(crystal-4);
@@ -42,6 +48,8 @@ var losses = 0;
 		
 // function to track score on score counter
 	function scoreBoard(){
+
+	}
 		
 	
 	
@@ -84,4 +92,4 @@ var losses = 0;
 		
 		
 	
-}};
+	});
