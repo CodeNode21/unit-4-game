@@ -11,7 +11,7 @@ crystals = [
 var score = 0;
 var wins = 0;
 var losses = 0;
-
+ 
     $("#crystal-1").html(cNumGenerator());
     $("#crystal-2").html(cNumGenerator());
     $("#crystal-3").html(cNumGenerator());
